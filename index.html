@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Email Validation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/assets/styles/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="form-wrapper">
+                <h1>Email Validation Check</h1>
+                <div class="form-container">
+                    <form id="form" action="#">
+                        <div class="form">
+                            <div class="input-style">
+                                <input class="form__style" type="email" name="email" id="email" placeholder="Email Address" onkeyup="validation()">
+                                <span class="fas fa-times-circle"></span>
+                                <span class="fas fa-check-circle"></span>
+                                <div class="validation-text"></div>
+                            </div>
+                            <button class="form__style form--submit submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <script src="/assets/scripts/main.js" async defer></script>
+    </body>
+</html>
